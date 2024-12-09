@@ -26,7 +26,7 @@ This project integrates a Google Sheet with a Telegram bot, allowing for automat
 
 ## Usage
 
-After setting up the integration, any changes made to the "tele_teknisi" column in your Google Sheet will automatically trigger a message to be sent to the Telegram group.
+After setting up the integration, any changes made to the "tele_user" column in your Google Sheet will automatically trigger a message to be sent to the Telegram group.
 
 You can also manually trigger the sheet monitoring by clicking on the "Telegram Bot" menu item in the Google Sheets UI and selecting "Monitor Sheet Changes".
 
