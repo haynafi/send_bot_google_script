@@ -1,5 +1,5 @@
 function sendTelegramMessage(message, chatId) {
-  var token = "BOT_TOKEN";
+  var token = "YOUR_BOT_TOKEN_HERE";
   var url = "https://api.telegram.org/bot" + token + "/sendMessage";
 
   var payload = {
