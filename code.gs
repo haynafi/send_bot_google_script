@@ -25,7 +25,7 @@ function monitorSheetChanges() {
   var changedColumn = activeCell.getColumn();
 
   if (changedColumn === 7) { // Column G
-    var teleTeknisi = sheet.getRange(changedRow, 7).getValue(); // Column G
+    var teleUser = sheet.getRange(changedRow, 7).getValue(); // Column G
     var idGroup = sheet.getRange(changedRow, 6).getValue(); // Column F
     
     // Get values from columns A-E for the changed row
@@ -35,7 +35,7 @@ function monitorSheetChanges() {
     var school = sheet.getRange(changedRow, 4).getValue(); // Column D
     var dateData = sheet.getRange(changedRow, 5).getValue(); // Column E
     
-    var message = "The value has been updated to: " + teleTeknisi + "\n\n" +
+    var message = "The value has been updated to: " + teleUser + "\n\n" +
                   "Data details for the updated row:\n" +
                   "Number: " + numberO + "\n" +
                   "Detail: " + detail + "\n" +
